@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Lato:wght@300&display=swap');
+$priceColor : #02995B;
+$textColor : #333333;
+$backgroundColor : #FDDE7E;
+
+*{
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+body {
+
+  background-color: $backgroundColor;
+
+}
+
+ul{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.card{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  padding: 50px 74px 70px;
+
+  &:not(:last-child){
+    margin-right: 30px;
+  }
+
+  &--extraSize{
+    .card__img{
+      margin: 30px 0 25px;
+    }
+  }
+
+  &__price{
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 88px;
+
+    color: $priceColor;
+  }
+
+  &__img{
+    margin: 15px 0;
+  }
+
+  &__name{
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 64px;
+
+    color: $textColor;
+  }
+
+  &__text{
+    width: 70%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: $textColor;
+  }
+
+}
