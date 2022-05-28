@@ -1,34 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Lato:wght@300&display=swap');
-$priceColor : #02995B;
-$textColor : #333333;
-$backgroundColor : #FDDE7E;
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Lato:wght@300&display=swap");
+$priceColor: #02995b;
+$textColor: #333333;
+$backgroundColor: #fdde7e;
 
-*{
-
+* {
   margin: 0;
   padding: 0;
   text-align: center;
-
 }
 body {
-
   background-color: $backgroundColor;
-
 }
 
-ul{
-
+ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
   width: 100vw;
   height: 100vh;
-
 }
 
-.card{
-
+.card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,18 +31,18 @@ ul{
   border-radius: 3px;
   padding: 50px 74px 70px;
 
-  &:not(:last-child){
+  &:not(:last-child) {
     margin-right: 30px;
   }
 
-  &--extraSize{
-    .card__img{
+  &--extraSize {
+    .card__img {
       margin: 30px 0 25px;
     }
   }
 
-  &__price{
-    font-family: 'Dosis', sans-serif;
+  &__price {
+    font-family: "Dosis", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 70px;
@@ -58,12 +51,12 @@ ul{
     color: $priceColor;
   }
 
-  &__img{
+  &__img {
     margin: 15px 0;
   }
 
-  &__name{
-    font-family: 'Dosis', sans-serif;
+  &__name {
+    font-family: "Dosis", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 51px;
@@ -72,9 +65,9 @@ ul{
     color: $textColor;
   }
 
-  &__text{
+  &__text {
     width: 70%;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -82,5 +75,4 @@ ul{
 
     color: $textColor;
   }
-
 }

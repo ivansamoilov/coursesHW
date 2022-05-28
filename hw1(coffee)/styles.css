@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #FDDE7E;
+  background-color: #fdde7e;
 }
 
 ul {
@@ -40,7 +40,7 @@ ul {
   font-weight: 600;
   font-size: 70px;
   line-height: 88px;
-  color: #02995B;
+  color: #02995b;
 }
 .card__img {
   margin: 15px 0;
