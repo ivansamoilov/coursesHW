@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?j6w3gi');
+    src:  url('../fonts/icomoon.eot?j6w3gi#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?j6w3gi') format('truetype'),
+      url('../fonts/icomoon.woff?j6w3gi') format('woff'),
+      url('../fonts/icomoon.svg?j6w3gi#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Regular.woff') format('woff'),
+    url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('Georgia.eot');
+    src: url('Georgia.eot?#iefix') format('embedded-opentype'),
+    url('Georgia.woff') format('woff'),
+    url('Georgia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Demi.eot');
+    src: url('FuturaPT-Demi.eot?#iefix') format('embedded-opentype'),
+    url('FuturaPT-Demi.woff') format('woff'),
+    url('FuturaPT-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 36px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content{
+    background-color: #464F54;
+
+    .nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        position: absolute;
+        right: 0;
+        z-index: 9999;
+
+        &__section{
+            width: 50%;
+            margin-top: 47px;            
+            background-color: #181818;
+
+            .container{
+                margin: 45px 0 46px 68px;
+                display: flex;
+                flex-direction: column;
+                border-bottom: 3px solid rgba(255, 255, 255, 0.1) ;
+
+                &__label{
+                    font-family: 'Proxima Nova', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 18px;
+                    letter-spacing: 0.19em;
+                    text-transform: uppercase;
+                    color: #767676;
+                }
+    
+                &__input{
+                    font-family: 'Playfair Display', serif;;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 48px;
+                    line-height: 64px;
+                    color: #FEFEFE;
+                    background-color: #181818;
+                    border: none;
+                    margin-bottom: 11px;
+                    
+                    &:focus-visible{
+                        outline: none;
+                    }
+                }
+            }
+            
+
+        }
+
+        &__btnGrp{
+            background-color: #FBC02D;
+            width: 45%;
+
+            .list{
+                display: flex;
+
+                &__btn{
+                    margin: 12px;
+                    
+                    i{
+                        margin: 10px;
+                    }
+                    
+                    &:hover{
+                        i{
+                            color: rgba(255, 255, 255, 1);
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
+            
+        }
+    }
+
+    .editorContainer{
+        display: flex;
+        justify-content: center;
+
+        .editor{
+            background-color: #FFF;
+            margin-top: 150px;
+            width: 90%;
+
+            &__activeZone{
+                margin-left: 66px;
+                padding:260px 0 110px 56px;
+                border-left: 2px solid #E8ECED;
+
+                &__author{
+                    margin: 0 0 18px;
+                    font-family: 'Proxima Nova', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    letter-spacing: 0.19em;
+                    text-transform: uppercase;
+                    color: #B4B4B4;
+                }
+
+                &__name{
+                    font-family: 'Futura PT', sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 78px;
+                    line-height: 100px;
+                    text-transform: uppercase;
+                    color: #2A2A2A;
+                }
+
+                &__subname{
+                    font-family: 'Georgia';
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 34px;
+                    color: #8F8F8F;
+                    margin-bottom: 50px;
+
+                }
+
+                &__text{
+                    font-family: 'Georgia';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 27px;
+                    line-height: 40px;
+                    color: #000000;
+                    margin-top: 30px;
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
