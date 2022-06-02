@@ -1,0 +1,19 @@
+@import './mixins';
+
+.menu{
+    @include centerable;
+
+    &__list{
+        @include centerable;
+
+        &-item{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 26px;
+            margin-right: 56px;
+            cursor: pointer;
+        }
+    }
+}

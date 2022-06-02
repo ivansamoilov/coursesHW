@@ -1,0 +1,93 @@
+@import './mixins';
+
+.city{
+    @include centerable;
+    flex-direction: column;
+    color: #ffffff;
+    background-image: url('../img/barcelona.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &__title{
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 74px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        margin-top: 56px;
+    }
+
+    &__name{
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 144px;
+        line-height: 144px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        margin: 16px 0;
+    }
+
+    &__date{
+        font-family: 'Quicksand', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+    &__text{
+        font-family: 'Quicksand', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        margin: 32px 0 16px;
+        width: 56%;
+    }
+
+    &__hr{
+        width: 300px;
+        border-top: 3px solid #fff;
+    }
+
+    &__promo{
+        font-family: 'Quicksand', serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 40px 0 24px;
+    }
+
+    &__button{
+        font-family: 'Quicksand', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #1ed400;
+        padding: 21px 110px;
+        margin-bottom: 106px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgba(30, 212, 0, 0.9);
+        }
+    }
+
+}

@@ -1,0 +1,58 @@
+@import './mixins';
+
+.stories{
+    @include centerable;
+    flex-direction: column;
+
+    background-color: rgba(30, 212, 0, 0.4);
+    background-image: url('../img/fishes.png');
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    color: #fff;
+
+    &__title{
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 74px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        margin: 48px 0 32px;
+    }
+
+    &__list{
+        @include centerable;
+        margin-bottom: 64px;
+
+        .list-item{
+            position: relative;
+
+            &__text{
+                position: absolute;
+                left: 8px;
+                top: 12px;
+                background: rgba(0, 0, 0, 0.85);
+                font-family: 'Lato', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                padding: 4px 8px;
+            }
+
+            &__play{
+                position: absolute;
+                top:43%;
+                left: 48%;
+            }
+
+            &:not(:last-child){
+                margin-right: 112px;
+            }
+        }
+
+    }
+}

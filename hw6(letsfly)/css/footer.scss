@@ -1,0 +1,39 @@
+@import './menu';
+@import './languageSelector';
+@import './socials';
+@import './mixins';
+
+.footer{
+    // position: static;
+    z-index: 9911;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../img/imgMountains\ 1.png');
+    background-position: center;
+    padding: 25px 0;
+    color: #000;
+    
+
+    &__logo{
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        margin: 32px;
+    }
+
+    &__main{
+        @include centerable;
+    }
+
+    &__socials{
+        @include centerable;
+    }
+
+    a{
+        color: #000; 
+    }
+}

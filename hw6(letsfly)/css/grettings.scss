@@ -1,0 +1,62 @@
+@import './mixins';
+
+.grettings{
+    @include centerable;
+    position: absolute;
+    z-index: 1;
+    top:0;
+    color: #fff;
+    background-image: url('../img/derek-thomson-TWoL-QCZubY-unsplash 4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100vh;
+    
+    &__container{
+        @include centerable;
+        flex-direction: column;
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0.85);
+        margin-top: 296px;
+
+        &-title{
+            font-family: 'Lora', serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 84px;
+            line-height: 100px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 24px;
+        }
+
+        &-subtitle{
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            margin: 32px 0;
+        }
+
+        &-button{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            color: #fff;
+            background-color: #1ed400;
+            padding: 21px 110px;
+            margin-bottom: 48px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgba(30, 212, 0, 0.9);
+            }
+        }
+    }
+}

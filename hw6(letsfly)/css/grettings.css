@@ -1,0 +1,84 @@
+.grettings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  color: #fff;
+  background-image: url("../img/derek-thomson-TWoL-QCZubY-unsplash 4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.grettings__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.85);
+  margin-top: 296px;
+}
+
+.grettings__container-title {
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 24px;
+}
+
+.grettings__container-subtitle {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 32px 0;
+}
+
+.grettings__container-button {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #1ed400;
+  padding: 21px 110px;
+  margin-bottom: 48px;
+  cursor: pointer;
+}
+
+.grettings__container-button:hover {
+  background-color: rgba(30, 212, 0, 0.9);
+}
+/*# sourceMappingURL=grettings.css.map */

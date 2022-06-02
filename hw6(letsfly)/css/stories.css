@@ -1,0 +1,77 @@
+.stories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(30, 212, 0, 0.4);
+  background-image: url("../img/fishes.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.stories__title {
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  margin: 48px 0 32px;
+}
+
+.stories__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 64px;
+}
+
+.stories__list .list-item {
+  position: relative;
+}
+
+.stories__list .list-item__text {
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  background: rgba(0, 0, 0, 0.85);
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 4px 8px;
+}
+
+.stories__list .list-item__play {
+  position: absolute;
+  top: 43%;
+  left: 48%;
+}
+
+.stories__list .list-item:not(:last-child) {
+  margin-right: 112px;
+}
+/*# sourceMappingURL=stories.css.map */

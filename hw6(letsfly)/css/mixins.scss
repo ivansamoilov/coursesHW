@@ -1,0 +1,5 @@
+@mixin centerable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

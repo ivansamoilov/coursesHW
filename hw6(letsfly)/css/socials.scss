@@ -1,0 +1,53 @@
+@import './mixins';
+
+.social{
+    @include centerable;
+
+    &__list{
+        
+        &-item{
+            cursor: pointer;
+
+            &--twitter{
+                &:hover{
+                    a{
+                        color: #1DA1F2;
+                    }
+                }
+            }
+
+            &--facebook{
+                &:hover{
+                    a{
+                        color: #4267B2;
+                    }
+                }
+            }
+
+            &--vk{
+                &:hover{
+                    a{
+                        color: #4C75A3;
+                    }
+                }
+            }
+
+            &--youtube{
+                &:hover{
+                    a{
+                        color: #FF0000;
+                    }
+                }
+            }
+
+            &:not(:last-child){
+                margin-right: 38px;
+            }
+
+            a{
+                font-size: 24px;
+            }
+            
+        }
+    }
+}

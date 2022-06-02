@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,iBAAiB,CAAA;ECDb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CDStB;;AAPI,AAAD,uBAAO,CAAA;ECJP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CDIlB;;AALL,AAOI,iBAPa,CAOb,CAAC,CAAA;EACG,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "languageSelector.scss",
+        "mixins.scss"
+    ],
+    "names": [],
+    "file": "languageSelector.css"
+}

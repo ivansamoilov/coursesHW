@@ -1,0 +1,13 @@
+@import './mixins';
+
+.languageSelector{
+    @include centerable;
+
+    &__flag{
+        @include centerable;
+    }
+    
+    i{
+        font-size: 10px;
+    }
+}
