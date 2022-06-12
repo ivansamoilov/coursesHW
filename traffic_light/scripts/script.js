@@ -1,6 +1,6 @@
 const circles = document.getElementsByClassName(`circle`);
-
 const modificators = [`circle--red`, `circle--yellow`, `circle--green`];
+
 let currentPos = 0;
 
 const onClickNext = () => {  
