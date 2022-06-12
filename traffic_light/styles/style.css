@@ -1,0 +1,69 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20vh;
+}
+
+ul .circle {
+  background: #D9D9D9;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  margin-bottom: 17px;
+}
+
+ul .circle--red {
+  background: #FF0000;
+}
+
+ul .circle--yellow {
+  background: #FAFF00;
+}
+
+ul .circle--green {
+  background: #14FF00;
+}
+
+button {
+  width: 70px;
+  height: 35px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

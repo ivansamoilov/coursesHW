@@ -1,0 +1,51 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+
+    .circle{
+        background:#D9D9D9;
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        margin-bottom: 17px;
+
+        &--red{
+            background: #FF0000;
+        }
+
+        &--yellow{
+            background: #FAFF00;
+        }
+
+        &--green{
+            background: #14FF00;
+        }
+    }      
+    
+}
+
+button{
+    width: 70px;
+    height: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+}
