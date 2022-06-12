@@ -1,5 +1,4 @@
 const circles = document.getElementsByClassName(`circle`);
-const button = document.getElementById(`btn`);
 
 const modificators = [`circle--red`, `circle--yellow`, `circle--green`];
 let currentPos = 0;
